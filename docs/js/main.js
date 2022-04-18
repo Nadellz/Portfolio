@@ -11,11 +11,7 @@
 
   // Preloader
   $(window).on('load', function () {
-    if ($('#preloader').length) {
-      $('#preloader').delay(0).fadeOut('slow', function () {
-        $(this).remove();
-      });
-    }
+    
   });
 
   // Back to top button
